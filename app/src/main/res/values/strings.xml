@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Pixtale</string>
+    <string name="signup">SignUp Now</string>
+    <string name="login">Login</string>
+    <string name="title_signup_page">Signup for more story</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Login</string>
+    <string name="title_login_page">Sudah siap untuk memulai cerita?</string>
+    <string name="name">Nama</string>
+    <string name="message_main_page">Selamat Belajar di Dicoding.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Keluar</string>
+    <string name="empty_image_warning">Please select an image first</string>
+    <string name="title_menu_1">Pixtale: Where Every Picture Tells a Story</string>
+    <string name="deskripsi">deskripsi</string>
+    <string name="nama">nama</string>
+    <string name="title_menu_2">Unleash Your Creativity with Pixtale: Photo Stories Made Easy</string>
+    <string name="title_menu_3">Welcome to Pixtale: Your Gateway to Visual Storytelling</string>
+    <string name="title_menu_4">Alumni Terpercaya di Berbagai Perusahaan</string>
+    <string name="desc_menu_1">Welcome to Pixtale, your go-to app for sharing captivating photo stories! Capture your moments and add.</string>
+    <string name="desc_menu_2">Discover the power of visual storytelling with Pixtale! Share your adventures, memories, and thoughts through stunning images paired with meaningful descriptions.</string>
+    <string name="desc_menu_3">Embark on Pixtale: Share your world with stunning photos and captivating stories. Simplified storytelling.</string>
+    <string name="desc_menu_4">Sertifikat yang membuktikan pengetahuan fundamental beserta keterampilan nyata yang diinginkan perusahaan global.</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+
+</resources>

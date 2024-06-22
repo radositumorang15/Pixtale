@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.dicoding.picodiploma.pixtale.view.Detail.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="90dp"
+        android:id="@+id/layoutuser"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@drawable/namebg">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/user_avatar"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/avatar"
+            app:riv_corner_radius="30dp" />
+
+        <TextView
+            android:id="@+id/tv_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/nama"
+            android:textSize="8sp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/iv_detail_photo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/layoutuser"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/image_dicoding"
+        app:riv_corner_radius="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_detail_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_detail_photo"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:text="@string/deskripsi"/>
+
+
+</RelativeLayout>

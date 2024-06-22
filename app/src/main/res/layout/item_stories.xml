@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp">
+
+    <!-- Gambar profil -->
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:src="@tools:sample/avatars"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Nama pengguna -->
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/profileImageView"
+        android:layout_alignTop="@id/profileImageView"/>
+
+    <!-- Waktu posting -->
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 hours ago"
+        android:textColor="@android:color/darker_gray"
+        android:layout_toEndOf="@id/profileImageView"
+        android:layout_below="@id/usernameTextView"/>
+
+    <!-- Gambar posting -->
+    <ImageView
+        android:id="@+id/postImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_dicoding"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/timeTextView"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Tombol suka -->
+    <ImageButton
+        android:id="@+id/likeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_heart_broken_24"
+        android:background="@android:color/transparent"
+        android:layout_below="@id/postImageView"
+        android:layout_marginTop="16dp"/>
+
+
+    <!-- Keterangan posting -->
+    <TextView
+        android:id="@+id/captionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        android:layout_below="@id/likeButton"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/actionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Action"
+        android:layout_below="@id/captionTextView"
+        android:layout_marginTop="16dp"/>
+
+
+</RelativeLayout>
+
